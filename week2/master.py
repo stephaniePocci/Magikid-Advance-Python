@@ -77,3 +77,41 @@ window.mainloop()
 Button(window, text='Click Me', height=2, width=12, command=click_me).pack()
 
 
+
+
+
+# Recursive function
+def reduce_to_zero(num):
+    print(num)
+
+    # Base Case
+    if num == 0:
+        return
+    
+    num = num - 1
+
+    #Recursive Case
+    reduce_to_zero(num)
+
+# Start the recursive function
+reduce_to_zero(10)
+
+
+class TreeNode:
+    def __init__(self, value=0, left=None, right=None):
+        self.value = value
+        self.left = left
+        self.right = right
+
+def inorder_bst(node: TreeNode) -> None:
+    if node is None:
+        return
+    
+    inorder_bst(node.left)
+    print(node.value)
+    inorder_bst(node.right)
+
+
+
+
+
