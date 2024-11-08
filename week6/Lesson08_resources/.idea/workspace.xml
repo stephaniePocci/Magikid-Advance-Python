@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f7c4fa9-27b2-4416-b138-f75952df41d1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WKXbBlAImbhp5hVpN0n6JZv1JT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.04_Practice2">
+    <configuration name="02_Practice1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TkinterProject3_S02L05" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Practice1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04_Practice2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TkinterProject3_S02L05" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_Practice2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="05_Listbox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TkinterProject3_S02L05" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_Listbox.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="06_Listbox2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TkinterProject3_S02L05" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_Listbox2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="07_Practice3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TkinterProject3_S02L05" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_Practice3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.04_Practice2" />
+        <item itemvalue="Python.07_Practice3" />
+        <item itemvalue="Python.06_Listbox2" />
+        <item itemvalue="Python.05_Listbox" />
+        <item itemvalue="Python.02_Practice1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f7c4fa9-27b2-4416-b138-f75952df41d1" name="Default Changelist" comment="" />
+      <created>1578899328981</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578899328981</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1661" y="136" key="#Inspections" timestamp="1580520972060">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1661" y="136" key="#Inspections/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1580520972060" />
+    <state width="706" height="216" key="GridCell.Tab.0.bottom" timestamp="1583438867127">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="706" height="216" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1583438867127" />
+    <state width="706" height="254" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581210311622" />
+    <state width="1414" height="254" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1580964053364" />
+    <state width="1414" height="255" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1578969861075" />
+    <state width="706" height="216" key="GridCell.Tab.0.center" timestamp="1583438867126">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="706" height="216" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1583438867126" />
+    <state width="706" height="254" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581210311621" />
+    <state width="1414" height="254" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1580964053363" />
+    <state width="1414" height="255" key="GridCell.Tab.0.center/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1578969861074" />
+    <state width="706" height="216" key="GridCell.Tab.0.left" timestamp="1583438867125">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="706" height="216" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1583438867125" />
+    <state width="706" height="254" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581210311621" />
+    <state width="1414" height="254" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1580964053361" />
+    <state width="1414" height="255" key="GridCell.Tab.0.left/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1578969861074" />
+    <state width="706" height="216" key="GridCell.Tab.0.right" timestamp="1583438867126">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="706" height="216" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1583438867126" />
+    <state width="706" height="254" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581210311621" />
+    <state width="1414" height="254" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1580964053363" />
+    <state width="1414" height="255" key="GridCell.Tab.0.right/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1578969861075" />
+    <state width="706" height="254" key="GridCell.Tab.1.bottom" timestamp="1583438867108">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="706" height="254" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1583438867108" />
+    <state width="706" height="254" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581210311624" />
+    <state width="1414" height="254" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1580964053367" />
+    <state width="1414" height="255" key="GridCell.Tab.1.bottom/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1578969860975" />
+    <state width="706" height="254" key="GridCell.Tab.1.center" timestamp="1583438867107">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="706" height="254" key="GridCell.Tab.1.center/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1583438867107" />
+    <state width="706" height="254" key="GridCell.Tab.1.center/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581210311623" />
+    <state width="1414" height="254" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1580964053366" />
+    <state width="1414" height="255" key="GridCell.Tab.1.center/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1578969860975" />
+    <state width="706" height="254" key="GridCell.Tab.1.left" timestamp="1583438867106">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="706" height="254" key="GridCell.Tab.1.left/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1583438867106" />
+    <state width="706" height="254" key="GridCell.Tab.1.left/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581210311622" />
+    <state width="1414" height="254" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1580964053365" />
+    <state width="1414" height="255" key="GridCell.Tab.1.left/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1578969860974" />
+    <state width="706" height="254" key="GridCell.Tab.1.right" timestamp="1583438867107">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="706" height="254" key="GridCell.Tab.1.right/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1583438867107" />
+    <state width="706" height="254" key="GridCell.Tab.1.right/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1581210311623" />
+    <state width="1414" height="254" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1580964053366" />
+    <state width="1414" height="255" key="GridCell.Tab.1.right/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1578969860975" />
+    <state x="1541" y="23" width="1229" height="897" key="SettingsEditor" timestamp="1580521087132">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1541" y="0" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1579328456737" />
+    <state x="1541" y="23" width="1229" height="897" key="SettingsEditor/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1580521087132" />
+    <state x="76" y="23" width="1229" height="877" key="SettingsEditor/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1578969014942" />
+    <state x="316" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1581229250685">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="316" y="255" key="com.intellij.ide.util.TipDialog/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1581202171860" />
+    <state x="316" y="255" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1581229250685" />
+    <state x="316" y="255" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1578968206426" />
+    <state x="204" y="78" width="1045" height="743" key="find.popup" timestamp="1578923858182">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="204" y="78" width="1045" height="743" key="find.popup/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1578923858182" />
+  </component>
+</project>
