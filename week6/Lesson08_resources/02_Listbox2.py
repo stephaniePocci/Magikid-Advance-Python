@@ -8,7 +8,7 @@ window.geometry("400x300+1000+150")
 
 
 lb = Listbox(window,
-             selectmode=BROWSE)  
+             selectmode=MULTIPLE)  
 
 
 list_items = ["item1", "item2", "item3", "item4"]
