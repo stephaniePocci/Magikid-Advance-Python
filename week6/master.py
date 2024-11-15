@@ -7,7 +7,7 @@ window = Tk()
 window.title('Listbox')
 
 # Step3: Set window size and position
-window.geometry('400x300+1000+150')
+window.geometry('400x300+2000+150')
 
 list_items = ['item1', 'item2', 'item3', 'item4']
 
@@ -24,7 +24,7 @@ BROWSE	    | Single item with dragging capability	        | One item at a time, 
 MULTIPLE	| Multiple independent item selections	        | Multiple items, toggle with clicks
 EXTENDED	| Contiguous and non-contiguous item selections	| Use Shift for range, Control for toggle
 """
-lb = Listbox(window, listvariable=var, selectmode=MULTIPLE)
+lb = Listbox(window, listvariable=var, selectmode=MULTIPLE, font=('Arial', 16))
 
 lb.pack()
 
@@ -36,13 +36,13 @@ for item in list_items:
     lb.insert(END, item)  
 
 # insert to active selection
-lb.insert(ACTIVE, "ACTIVE, 在开始添加")
+# lb.insert(ACTIVE, "ACTIVE, 在开始添加")
 
 # insert at index 1, shift everything else 1 down
 lb.insert(1, "First")
 
 # insert at the end, this is considered one entry
-lb.insert(END, ["Hello, world!", "Hello, Leo!"])
+# lb.insert(END, ["Hello, world!", "Hello, Leo!"])
 
 # Step 7: delete
 # deletes items from index 0 to 1, so it will delete 0 and 1
@@ -71,6 +71,16 @@ print(lb.curselection())
 
 # Checks if the item at index 3 is currently selected and prints True or False.
 print(lb.selection_includes(3))
+
+entry = Entry(window, show=None, font=('Arial', 16))  # Show in plaintext
+entry.pack()
+
+def add_item():
+    item = entry.get()
+    lb.insert(END, item)
+
+Button(window, text="ADD", command=add_item, font=('Arial', 16)).pack()
+
 # Step: Set the main window loop
 window.mainloop()
 
