@@ -81,7 +81,7 @@ canvas = tk.Canvas(root, width=400, height=300, bg="white")
 canvas.pack()
 
 # Load the image
-photo = tk.PhotoImage(file="example.gif")
+photo = tk.PhotoImage(file="./example.png")
 
 # Add the image to the canvas
 canvas.create_image(200, 150, image=photo, anchor=tk.CENTER)
@@ -91,18 +91,18 @@ root.mainloop()
 
 # TIMER
 
-import tkinter as tk
+# import tkinter as tk
 
-def update_timer():
-    global counter
-    counter += 1
-    label.config(text=f"Timer: {counter} seconds")
-    root.after(1000, update_timer)  # Call this function again in 1 second
+# def update_timer():
+#     global counter
+#     counter += 1
+#     label.config(text=f"Timer: {counter} seconds")
+#     root.after(1000, update_timer)  # Call this function again in 1 second
 
-root = tk.Tk()
-counter = 0
-label = tk.Label(root, text="Timer: 0 seconds")
-label.pack()
+# root = tk.Tk()
+# counter = 0
+# label = tk.Label(root, text="Timer: 0 seconds")
+# label.pack()
 
-update_timer()  # Start the timer
-root.mainloop()
+# update_timer()  # Start the timer
+# root.mainloop()
