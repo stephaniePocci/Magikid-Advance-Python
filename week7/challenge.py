@@ -15,10 +15,6 @@ spans the whole width
 
 
 
-
-
-
-
 Challenge 2: Simple Calculator
 1. Have two entry boxes
 2. Create a radio button with the options + - / and *
