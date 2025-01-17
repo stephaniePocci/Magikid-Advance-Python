@@ -63,9 +63,6 @@ The .grid() method positions widgets in a table-like layout, with rows and colum
 
 """
 
-
-
-
 # CHALLENGE
 '''
 1. make a calculator with a label for the sum, and buttons for + - and 0-9
@@ -87,24 +84,45 @@ Label(window, text="Main window",
       font=('Arial', 16)).pack()
 
 # Create a main frame
-frame_master = Frame(window, bg='yellow')
+frame_master = Frame(window, bg='red')
 frame_master.pack()
-Label(frame_master, text="main frame", bg='green').pack()
+Label(frame_master, text="number", bg='green').pack()
 
 # Create a left subframe in the main frame
 frame_left = Frame(frame_master)
 frame_left.pack(side=LEFT)
 Label(frame_left,
-      text="Left subframe label 1", bg='red').pack()
+      text="1", bg='red').grid(row=0, column=0)
 Label(frame_left,
-      text="Left subframe label 2", bg='blue').pack()
+      text="2", bg='blue').grid(row=0, column=1)
+Label(frame_left,
+      text="3", bg='green').grid(row=0, column=2)
+Label(frame_left,
+      text="4", bg='purple').grid(row=1, column=0)
+Label(frame_left,
+      text="5", bg='yellow').grid(row=1, column=1)
+Label(frame_left,
+      text="6", bg='pink').grid(row=1, column=2)
+Label(frame_left,
+      text="7", bg='orange').grid(row=2, column=0)
+Label(frame_left,
+      text="8", bg='brown').grid(row=2, column=1)
+Label(frame_left,
+      text="9", bg='white').grid(row=2, column=2)
+
 
 # Create a right subframe in the main frame
-frame_right = Frame(frame_master)
+frame_right = Frame(frame_master, bg='black')
 frame_right.pack(side=RIGHT)
 Label(frame_right,
-      text="Right subframe label 1", bg='pink').pack()
+      text="+", bg='pink').pack()
 Label(frame_right,
-      text="Right subframe label 2", bg='pink').pack()
+      text="-", bg='pink').pack()
+Label(frame_right,
+      text="/", bg='pink').pack()
+Label(frame_right,
+      text="*", bg='pink').pack()
+Label(frame_right,
+      text="Enter", bg='pink').pack()
 
 window.mainloop()
