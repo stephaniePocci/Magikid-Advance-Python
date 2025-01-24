@@ -88,26 +88,27 @@ frame_master = Frame(window, bg='red')
 frame_master.pack()
 Label(frame_master, text="number", bg='green').pack()
 
+
 # Create a left subframe in the main frame
 frame_left = Frame(frame_master)
 frame_left.pack(side=LEFT)
-Label(frame_left,
+Button(frame_left,
       text="1", bg='red').grid(row=0, column=0)
-Label(frame_left,
+Button(frame_left,
       text="2", bg='blue').grid(row=0, column=1)
-Label(frame_left,
+Button(frame_left,
       text="3", bg='green').grid(row=0, column=2)
-Label(frame_left,
+Button(frame_left,
       text="4", bg='purple').grid(row=1, column=0)
-Label(frame_left,
+Button(frame_left,
       text="5", bg='yellow').grid(row=1, column=1)
-Label(frame_left,
+Button(frame_left,
       text="6", bg='pink').grid(row=1, column=2)
-Label(frame_left,
+Button(frame_left,
       text="7", bg='orange').grid(row=2, column=0)
-Label(frame_left,
+Button(frame_left,
       text="8", bg='brown').grid(row=2, column=1)
-Label(frame_left,
+Button(frame_left,
       text="9", bg='white').grid(row=2, column=2)
 
 
