@@ -78,7 +78,7 @@ from tkinter import *
 window = Tk()
 
 window.title("Frame Demo")
-
+window.geometry("400x900+2000+100")
 Label(window, text="Main window",
       bg='blue', fg='white',
       font=('Arial', 16)).pack()
@@ -86,29 +86,29 @@ Label(window, text="Main window",
 # Create a main frame
 frame_master = Frame(window, bg='red')
 frame_master.pack()
-Label(frame_master, text="number", bg='green').pack()
+Label(frame_master, text="number", bg='green', font=('Arial', 26)).pack()
 
 # Create a left subframe in the main frame
 frame_left = Frame(frame_master)
 frame_left.pack(side=LEFT)
 Label(frame_left,
-      text="1", bg='red').grid(row=0, column=0)
+      text="1", bg='red', font=('Arial', 26)).grid(row=0, column=0)
 Label(frame_left,
-      text="2", bg='blue').grid(row=0, column=1)
+      text="2", bg='blue', font=('Arial', 26)).grid(row=0, column=1)
 Label(frame_left,
-      text="3", bg='green').grid(row=0, column=2)
+      text="3", bg='green', font=('Arial', 26)).grid(row=0, column=2)
 Label(frame_left,
-      text="4", bg='purple').grid(row=1, column=0)
+      text="4", bg='purple', font=('Arial', 26)).grid(row=1, column=0)
 Label(frame_left,
-      text="5", bg='yellow').grid(row=1, column=1)
+      text="5", bg='yellow', font=('Arial', 26)).grid(row=1, column=1)
 Label(frame_left,
-      text="6", bg='pink').grid(row=1, column=2)
+      text="6", bg='pink', font=('Arial', 26)).grid(row=1, column=2)
 Label(frame_left,
-      text="7", bg='orange').grid(row=2, column=0)
+      text="7", bg='orange', font=('Arial', 26)).grid(row=2, column=0)
 Label(frame_left,
-      text="8", bg='brown').grid(row=2, column=1)
+      text="8", bg='brown', font=('Arial', 26)).grid(row=2, column=1)
 Label(frame_left,
-      text="9", bg='white').grid(row=2, column=2)
+      text="9", bg='white', font=('Arial', 26)).grid(row=2, column=2)
 
 
 # Create a right subframe in the main frame

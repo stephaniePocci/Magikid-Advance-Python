@@ -1,0 +1,41 @@
+from tkinter import *
+
+window = Tk()
+
+lb1 = Label(window, text="Main window", bg='blue', fg='white', font=('Arial', 16))
+lb1.pack()
+# Creating master frame
+frame_master = Frame(window, bg="yellow")
+frame_master.pack()
+# add a label to the master frame
+Label(frame_master, text="Section 1", bg="blue").pack()
+# Create left subframe
+frame_left = Frame(frame_master)
+frame_left.pack(side=LEFT)
+# add labels to the left subframe
+Label(frame_left, text="Section 2", bg="red").pack()
+Label(frame_left, text="Section 3", bg="green").pack()
+# create right subframe
+frame_right = Frame(frame_master)
+frame_right.pack(side=RIGHT)
+# add labels to the right subframe
+Label(frame_right, text="Section 4", bg="purple").pack()
+Label(frame_right, text="Section 5", bg="pink").pack()
+
+# variables to store our cookie clicker counts
+count = 0
+text = StringVar()
+
+# function to handle click logic
+def click():
+    global count
+    count += 1
+    text.set("Score: " + str(count))
+
+# button to increase count
+btn1 = Button(frame_right, text="click", command=click).pack()
+
+lb2 = Label(frame_left, textvariable=text).pack()
+
+
+window.mainloop()
