@@ -78,7 +78,7 @@ from tkinter import *
 window = Tk()
 
 window.title("Frame Demo")
-
+window.geometry("400x900+2000+100")
 Label(window, text="Main window",
       bg='blue', fg='white',
       font=('Arial', 16)).pack()
@@ -86,7 +86,7 @@ Label(window, text="Main window",
 # Create a main frame
 frame_master = Frame(window, bg='red')
 frame_master.pack()
-Label(frame_master, text="number", bg='green').pack()
+Label(frame_master, text="number", bg='green', font=('Arial', 26)).pack()
 
 
 # Create a left subframe in the main frame
