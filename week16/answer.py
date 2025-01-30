@@ -22,9 +22,16 @@ def Enter():
     sum = 0
 
     # Step 2: lexical
+    # TODO: Left off with this but they probably didnt do it right
+    # How this works
+    # loop through each character in stringInput
+    # if isSecondNum is true that means we've gone past the operator and can now update secondNum by adding the character at i to it
+    # else if the current value of stringInput[i] is an operator just update the operation value to it, and also set isSecondNum to true because following that characters should be a part of the second number
+    # else let's assume we're still adding values to the firstNum
     for i in range(len(stringInput)):
         if isSecondNum:
                 secondNum += stringInput[i]
+            #     TODO: definitely did not handle the other operators
         elif (stringInput[i] == "+") or (stringInput[i] == "-") or (stringInput[i] == "/") or (stringInput[i] == "*"):
                 operation = stringInput[i]
                 isSecondNum = True
@@ -32,6 +39,7 @@ def Enter():
                 firstNum += stringInput[i]
     
     # Step 3: Perform Operation
+    # TODO: briefly mentioned this but only for subtract so they'll prob need guidance for the other operators
     if (operation == "+"):
           sum = int(firstNum) + int(secondNum)
     elif (operation == "-"):
@@ -42,6 +50,7 @@ def Enter():
           sum = int(firstNum) / int(secondNum)
 
     # Step 4: update label text
+    # finally manually update value on the number label which is the label on line 7
     number.config(text=str(sum))
     # Step 5: reset variables
     input.set("")
@@ -52,9 +61,19 @@ def Enter():
     isSecondNum = False;
     sum = 0
 
+
+
 def insertValue(value):
+      # TODO:  talk about how to handle this
+
+      # access the input variable in the local state
       global input
+      # first get the current input string...
+      # ex: # "12312+" 
+      # then get the current value which is the argument from the lambda function
+      # after that combine the two strings into one and update the input variable
       input.set(input.get() + value)
+      # finally manually update value on the number label which is the label on line 7
       number.config(text=input.get())
 
 # Create a main frame
@@ -64,6 +83,19 @@ frame_master.pack()
 # Numpad
 frame_left = Frame(frame_master)
 frame_left.pack(side=LEFT)
+
+# NOTE: to add a widget to a window you need to use .pack() but if you want to make 
+# dynamic layouts like a grid then you need to use .grid() which specifies which
+# row and column the widget is added. 
+
+# EX a tic tac toe board will have row=0 and column=0 be the top left square,
+# row=1 and column=1 be the middle square, and row=2 and column=2 be the bottom right
+
+# NOTE: lambda is used as a way to call insertValue with a parameter
+# lambdas are fancy ways to create and use functions once without using def
+# you dont need to go over this because lowkey this might be complicated
+# an example of this is using it as a one-liner but a trade off of that is that you would
+# have to either declare the function again if you want to use it somewhere else.
 Button(
       frame_left,
       text="1", 
