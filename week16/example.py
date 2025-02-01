@@ -43,7 +43,8 @@ def Enter():
     """
         Using the variable operation we defined, either add, subtract, multiply, or divide firstNum and secondNum
     """
-
+    if operation == "+":
+        sum = int(firstNum) + int(secondNum)
 
     # Step 4: update label text
     """
