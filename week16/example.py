@@ -45,11 +45,18 @@ def Enter():
     """
     if operation == "+":
         sum = int(firstNum) + int(secondNum)
+    elif operation == "-":
+        sum = int(firstNum) - int(secondNum)
+    elif operation == "*":
+        sum = int(firstNum) * int(secondNum)
+    elif operation == "/":
+        sum = int(firstNum) / int(secondNum)
 
     # Step 4: update label text
     """
         update the label, we called number on line 7, with the sum 
     """
+    number.config(text=str(sum))
 
     # Step 5: reset variables
     input.set("")
@@ -73,6 +80,9 @@ def insertValue(value):
         input = "1234+5"
     """
     # After that do not forget to update the label we called number on line 7
+    global input
+    input.set(input.get() + value)
+    number.config(text=input.get())
 
 # Create a main frame
 frame_master = Frame(window)
