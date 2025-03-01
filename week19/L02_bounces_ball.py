@@ -10,7 +10,7 @@ canvas_height = 800
 
 canvas = tk.Canvas(window, width=canvas_width, height=canvas_height, bg="#006400")
 canvas.pack()
-
+window.title("Bouncing Ball Game")
 window.update()  # 刷新页面
 
 '''Step2: 在画布上创建一个小球'''
